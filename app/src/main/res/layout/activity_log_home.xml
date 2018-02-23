@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:text="Logs"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity_logs_home_label_log"
+            android:layout_weight="1"
+            android:textSize="45sp"
+            android:layout_width="wrap_content" />
+
+        <Button
+            android:text="Rafraichir"
+            android:layout_width="wrap_content"
+            android:id="@+id/activity_logs_home_btn_refresh"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Vider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity_logs_home_btn_delete"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        android:id="@+id/activity_logs_home_list" />
+</LinearLayout>

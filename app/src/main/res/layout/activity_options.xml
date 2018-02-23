@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:text="Options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_options_display_titre"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <TextView
+        android:text="Numéro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_options_label_numero"
+        android:textSize="35sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:id="@+id/activity_options_input_numero"
+        android:background="@android:color/darker_gray"
+        android:layout_height="35dp"
+        android:inputType="number"
+        android:hint="Numéro"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:text="Compteur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_options_label_compteur"
+        android:textSize="35sp"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/activity_options_input_compteur"
+        android:background="@android:color/darker_gray"
+        android:hint="Compteur"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:text="Valider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_options_btn_valider" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@android:color/darker_gray">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+            android:text="Actions"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity_actions_home_label_page"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <Button
+            android:text="+"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity_actions_home_button_add_action"
+            android:textSize="45sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/activity_actions_list_view"
+        android:background="@android:color/background_light" />
+</LinearLayout>

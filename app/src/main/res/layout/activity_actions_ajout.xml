@@ -83,12 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="45dp" />
 
-        <CheckBox
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="CheckBox" />
-
-        <Space
+            <Space
             android:layout_width="match_parent"
             android:layout_height="45dp" />
 
@@ -108,6 +103,11 @@
             android:layout_height="wrap_content"
             android:id="@+id/activity_actions_ajout_btn_valider" />
         </LinearLayout>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="option" />
     </ScrollView>
 
 
